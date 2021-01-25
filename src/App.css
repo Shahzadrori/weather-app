@@ -63,6 +63,11 @@ div.showtem {
   align-items: center;
   justify-content: center;
 }
+h1.top{
+  display: flex;
+  flex-direction: row;
+  word-wrap: none;
+}
 input{
   background-color: #51adcf;
   outline: none;
@@ -73,4 +78,18 @@ input{
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+input:focus{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 150px; 
+}
+.nodata{
+  display: flex;
+  justify-content: center;
 }
