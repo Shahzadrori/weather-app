@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -49,12 +50,12 @@ h2.city {
   margin-left: 100px;
   color: #0e49b5;
 }
-h2.top{
+h1.top {
   margin-top: 20px;
   text-align: center;
   background-color: #99a8b2;
   color: #120078;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   padding: 5px;
 }
 .stree {
@@ -71,12 +72,12 @@ div.showtem {
   align-items: center;
   justify-content: center;
 }
-input{
+input {
   background-color: #51adcf;
   outline: none;
   border: none;
   padding: 5px;
-  font-family: 'Nova Flat', cursive;
+  font-family: "Nova Flat", cursive;
   font-size: 15px;
   margin-left: 15px;
   text-align: center;
@@ -86,7 +87,7 @@ input{
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-input:focus{
+input:focus {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 20px;
@@ -94,13 +95,15 @@ input:focus{
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  width: 150px; 
+  width: 150px;
 }
-.nodata{
+.nodata {
   display: flex;
   justify-content: center;
 }
-.tem{
-  font-family: 'Kaushan Script', cursive;
-
+.tem {
+  font-family: "Kaushan Script", cursive;
+}
+.ther {
+  font-family: "Playball", cursive;
 }
