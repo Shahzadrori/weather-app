@@ -15,12 +15,13 @@ function Container() {
     return (
         <>
         <div className='wraper'>
+        <h2 className='top'>Todays Weather</h2>
             <div className='inp'>
-            <h1 className='top'>Todays Weather</h1>
+           
                 <input type='search' onChange={(eve)=> setsearch(eve.target.value)} value={search}/>
             </div>
             {!city ? (
-                <p className='nodata'>No Data Found</p>
+                <h2 className='nodata'>No Data Found</h2>
             ) : (
                 <>
                 <div className='dis'>
@@ -28,8 +29,10 @@ function Container() {
                 <h2 className='city'>{search}</h2>
             </div>
             <div className='showtem'>
-            <h2>{city.temp}°C</h2>
-              <h3>Min{city.temp_min}°C || Max{city.temp_max}°C</h3>
+            <h2 className='tem'>{city.temp}°C</h2><br />
+            <pre>
+              <h3 className='tem'>Min {city.temp_min}°C  ||  Max {city.temp_max}°C</h3>
+              </pre>
             </div>
         </>
             )
