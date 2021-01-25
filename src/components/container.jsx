@@ -9,10 +9,7 @@ function Container() {
     const fetchapi = async () => {
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=b84f47b108fd54f27461f6ec07f83c60`;
       const response = await fetch(url);
-      console.log(response);
       const resjson = await response.json();
-      console.log(resjson.main);
-      console.log(resjson.weather);
       if (resjson.main) {
         setcity(resjson);
         setweathers(true);
